@@ -47,7 +47,7 @@ import os
 import openai
 import langchain
 
-openai.api_key  = "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"
+openai.api_key  = "API KEY"
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 embedding = OpenAIEmbeddings(openai_api_key=openai.api_key)
